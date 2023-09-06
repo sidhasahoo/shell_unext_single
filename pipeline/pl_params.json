@@ -1,6 +1,17 @@
 {
 	"name": "pl_params",
 	"properties": {
+		"activities": [
+			{
+				"name": "filter2",
+				"type": "Filter",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"items": ""
+				}
+			}
+		],
 		"parameters": {
 			"account_name": {
 				"type": "array",
