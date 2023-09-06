@@ -1,6 +1,16 @@
 {
 	"name": "PL_array",
 	"properties": {
+		"variables": {
+			"Dataarray": {
+				"type": "Array",
+				"defaultValue": [
+					"a",
+					"b",
+					"c"
+				]
+			}
+		},
 		"annotations": []
 	}
 }
