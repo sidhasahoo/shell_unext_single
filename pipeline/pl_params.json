@@ -8,7 +8,14 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"items": ""
+					"items": {
+						"value": "@pipeline().parameters.account_name",
+						"type": "Expression"
+					},
+					"condition": {
+						"value": "@not(equals(item(),'c' ))",
+						"type": "Expression"
+					}
 				}
 			}
 		],
